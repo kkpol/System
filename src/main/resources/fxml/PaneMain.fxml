@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="pl.system.controllers.MainController">
+   <children>
+   
+       <VBox layoutX="477.0" layoutY="215.0" prefHeight="300.0" prefWidth="177.0">
+      <children>
+              <fx:include fx:id="menuButtons" source="MenuButtons.fxml" />
+      </children>
+       </VBox>
+   </children>
+</Pane>

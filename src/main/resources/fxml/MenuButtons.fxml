@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" spacing="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.system.controllers.MenuButtonsController">
+   <children>
+      <ToggleButton mnemonicParsing="false" onAction="#startTheBill" prefHeight="80.0" prefWidth="300.0" text="Wprowadź klienta">
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin></ToggleButton>
+      <ToggleButton mnemonicParsing="false" onAction="#checkBillsHistory" prefHeight="80.0" prefWidth="300.0" text="Historia rachunków">
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin></ToggleButton>
+      <ToggleButton mnemonicParsing="false" onAction="#checkStock" prefHeight="80.0" prefWidth="300.0" text="Stan zapasów">
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin></ToggleButton>
+      <ToggleButton mnemonicParsing="false" onAction="#quitAplication" prefHeight="80.0" prefWidth="300.0" text="Wyjdź">
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin></ToggleButton>
+   </children>
+</VBox>
